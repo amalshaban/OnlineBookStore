@@ -11,6 +11,8 @@ import ChangePass from '../../../AuthModules/components/ChangePass/ChangePass';
 import styles from './LandingPage.module.css';
 import Slider from '../../../SharedModules/components/Slider/Slider';
 import NewReleaseBooks from '../../../SharedModules/components/NewReleaseBooks/NewReleaseBooks';
+import FeaturedBook from '../../../SharedModules/components/FeaturedBook/FeaturedBook';
+import AllBooks from '../../../SharedModules/components/AllBooks/AllBooks';
 
 export default function Landingpage() {
 
@@ -131,6 +133,8 @@ let navigate = useNavigate();
 
       <Slider />
       <NewReleaseBooks/>
+      <FeaturedBook />
+      <AllBooks />
       </>
   )
 }
