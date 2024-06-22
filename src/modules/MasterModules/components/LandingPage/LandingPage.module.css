@@ -1,0 +1,21 @@
+.topHeader{
+    background-color: #393280;
+    height: 56px;
+}
+.topHeader i{
+    color: white;
+    font-size: 23; 
+}
+.profileImg{
+    border: 1px solid #C0C0C0;
+    background-color: #C4C4C4;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+}
+ .navLink{
+    color: #ED553B !important;
+}
+.headLinks{
+    font-weight: bold;
+}
