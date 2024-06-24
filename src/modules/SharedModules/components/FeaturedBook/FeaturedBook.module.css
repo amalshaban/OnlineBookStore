@@ -1,0 +1,36 @@
+:global(.book){
+    background: linear-gradient(78.43deg, #FBEEEE -27.34%, #F7FFFE 89.92%);
+}
+:global(.bookItems img){
+    
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+:global(.bookDetails h1){
+padding-top: 10rem;
+color:#393280;
+margin-bottom: 2rem;
+}
+:global(.bookDetails span){
+    text-transform: uppercase;
+    color: #888888;
+    size: 13px;
+    border-top: 1px solid #ED553B;
+
+    }
+:global(.bookDetails h3){
+    padding-top: 3rem;
+    color:#393280;
+
+}
+:global(.bookDetails p){
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+:global(.bookDetails h4){
+    color:#ED553B;
+    margin-bottom: 5rem;
+}
+:global(.bookDetails button){
+    margin-top: 5rem;
+}

@@ -1,0 +1,25 @@
+:global(.allBooks){
+    background-color: #FCEBEA;
+    border-radius: 20px;
+    margin: 4rem auto;
+    
+}
+
+:global(.allBooksData){
+    padding-top: 3rem;
+    margin-left: 2rem;
+}
+:global(.allBooksData span){
+color: #ED553B;
+
+}
+:global(.allBooksData h1){
+    
+  color:#463C74;
+  
+}
+
+:global(.allBooksData p){
+    color:#463C74;
+padding: 1rem 0;
+}

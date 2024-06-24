@@ -1,0 +1,23 @@
+:global(.categorySlide){
+    background: white;
+    height: auto !important;
+
+    /* height: 100vh; */
+}
+:global(.secondSection){
+    padding:3rem;
+
+}
+:global(.secondSection h6){
+    color: #ED553B;
+}
+:global(.secondSection h3){
+color: #393280;
+padding-top: 2rem;
+
+}
+:global(.categorySlide h3){
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

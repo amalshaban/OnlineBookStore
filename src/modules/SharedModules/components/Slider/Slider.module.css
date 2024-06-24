@@ -1,8 +1,21 @@
-.swiperButtonNext, .swiperButtonPrev{
-     color:#ED553B;
-     margin-right: 100px;
+:global(.firstSlide){
+     background: linear-gradient(78.83deg, #FFE6E6 8.52%, #F5FFFE 68.88%, #FFFFFF 101.74%);
+     margin-bottom: 1rem;
+     padding-left: 10rem;
+     padding-top: 3rem;
 }
-.firstSwipper{
-     background-color: linear-gradient(78.83deg, #FFE6E6 8.52%, #F5FFFE 68.88%, #FFFFFF 101.74%);
-
+:global(.secondSlide){
+     background: linear-gradient(90.83deg, #89afc5 8.52%, #beddda 68.88%, #FFFFFF 101.74%);
+     margin-bottom: 1rem;
+     padding-left: 10rem;
+     padding-top: 3rem;
+}
+:global(.swiper-button-next),:global(.swiper-button-prev){
+     border: 1px solid #ED553B;
+     border-radius: 50%;
+     width: 60px;
+     height: 60px;
+     color: #ED553B;
+     background-color: white;
+     font-size:  10px;
 }

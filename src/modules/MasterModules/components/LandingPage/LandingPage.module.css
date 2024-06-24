@@ -19,3 +19,156 @@
 .headLinks{
     font-weight: bold;
 }
+
+
+
+
+
+:global(.someQualityItems){
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #FCECEC;
+    padding: 3rem;
+
+}
+:global(.someQualityItems .cards){
+background: transparent;
+border: none;
+text-align: center;
+}
+:global(.someQualityItems .cards img){
+    box-shadow: 0px 4px 10px 0px #00000026;
+    border: 1px solid #EAE8DF;
+    background: #FFFFFF;
+
+}
+:global(.someQualityItems .cards h4){
+   color:#393280;
+}
+:global(.someQualityItems .cards p){
+    color: #888888;
+    font-size: 14px;
+
+}
+:global(.someQualityItems .cards span){
+    color: #ED553B;
+
+    font-weight: bold;
+}
+:global(.someQualityItems span){
+text-align: center;
+
+}
+:global(.someQualityItems h1){
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+:global(.subscribe){
+    background-color: #FCEBEA;
+    text-align: center;
+    padding: 0 7rem 3rem 7rem ;
+    color: white;
+    background-image:url('../../../../assets/imgs/ornament.png');
+    background-repeat:repeat-x;
+    
+}
+:global(.subscribeDetails){
+    background-color: #ED553B;
+    margin: 0 auto;
+    padding: 3rem 15rem;
+}
+:global(.subscribeData){
+background-color: white;
+padding: 1rem;
+width: 45%;
+margin: -2rem auto 0 auto;
+color: black;
+}
+:global(.subscribeData i){
+    color: #6C777C;
+    padding: 1rem;
+    font-size: 26px;
+    font-weight: 600;
+}
+:global(.subscribeData button){
+    color: white;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+     background-color: #ED553B;
+}
+
+
+
+
+
+
+
+:global(.latestArticles){
+    background-color: #F7FCFC;
+    padding: 3rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+:global(.latestArticlesCards){
+padding: 1rem 5rem;
+border: none;
+}
+:global(.latestArticlesCards h5){
+    color: #173F5F;
+ padding: 1rem 0;
+}
+:global(.latestArticlesCards i){
+    background: transparent;
+    font-size: xx-small;
+    padding-left: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+:global(.footerSection){
+    background-color: #ED553B;
+    color: white;
+    padding: 5rem;
+}
+:global(.footerSection1 ul){
+   text-decoration: none;
+   padding: 2rem;
+   display: block;
+}
+:global(.footerSection1 ul li){
+    text-decoration: none;
+    font-size: 30px;
+    float: left;
+    margin-right: 1rem;
+    border-radius: 50%;
+    display: block;
+}
+:global(.footerSection1 span){
+ padding-top: 3rem;
+    display: block;
+ }
+ :global(.footerSection3 span){
+    padding-top: 10rem;
+       display: block;
+    }
+ 

@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import logo from '../../../../assets/imgs/Logo.png'
 import authimg from '../../../../assets/imgs/login-img.jfif'
 
-export default function ChangePass(handleClose) {
+export default function ChangePass(handleClose:any) {
   
   // let navigate = useNavigate();
   let{

@@ -23,7 +23,7 @@ try {
   let response = await axios.post('https://upskilling-egypt.com:3007/api/auth/login', data);
   navigate('/dashboard/home');
   console.log(response);
-  toast.success(response.data.message);
+  toast.success(`Welcome Back ${response.data.data.profile.first_name}`);
   localStorage.setItem('userToken', response.data.data.accessToken);
   saveLoginData();
   } 
