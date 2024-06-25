@@ -11,11 +11,11 @@ import ResetPass from './modules/AuthModules/components/ResetPass/ResetPass'
 import MasterLayout from './modules/SharedModules/components/MasterLayout/MasterLayout'
 import Landingpage from './modules/MasterModules/components/LandingPage/Landingpage'
 import BooksList from './modules/MasterModules/components/BooksList/BooksList'
-import Cart from './modules/MasterModules/components/Cart/Cart'
+import Cart from './modules/MasterModules/components/Cart/Cart';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { jwtDecode } from 'jwt-decode'
-import ProtectedRoute from './modules/SharedModules/components/ProtectedRoute/ProtectedRoute'
+import { jwtDecode } from 'jwt-decode';
+import ProtectedRoute from './modules/SharedModules/components/ProtectedRoute/ProtectedRoute';
 
 function App() {
   let[ loginData, setLoginData ] =useState(null);

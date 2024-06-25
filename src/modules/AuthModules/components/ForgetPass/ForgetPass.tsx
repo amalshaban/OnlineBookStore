@@ -6,7 +6,6 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { useState } from 'react'
 
 export default function ForgetPass() {
   
@@ -61,7 +60,7 @@ try {
 
                 {errors.email && <p className='alert alert-danger p-2'>{errors?.email?.message}</p>}
              <div className='text-center'>
-            
+             
               <button className='btn btn-outline-primary d-block w-100 my-3'>Send</button>
 
               </div>
